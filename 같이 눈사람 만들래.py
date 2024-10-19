@@ -1,0 +1,6 @@
+length = int(input())
+snowball = list(map(int, input().split()))
+snowball.sort(reverse=True)
+snowball_2 = sorted(snowball)
+print(snowball)
+print(snowball_2)
